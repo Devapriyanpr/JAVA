@@ -6,9 +6,9 @@ class Pattern2
       Scanner scn=new Scanner(System.in);
       System.out.println("Enter the number of Rows=");
       int Rows=scn.nextInt();
-     for(int i=1;i<=Rows;i++)
+      for(int i=1;i<=Rows;i++)
         {                
-            for(int j=1;j<=i;j++)
+            for(int j=1;j<=Rows;j++)
             {              
             if(i==1||i==Rows||j==1||j==Rows)
                 { 
@@ -16,7 +16,7 @@ class Pattern2
                 }
             else
                 {
-                 System.out.print(" ");
+                 System.out.print("  ");
                 } 
                   
             } 
